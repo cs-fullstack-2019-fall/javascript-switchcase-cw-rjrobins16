@@ -44,6 +44,8 @@ let input;
 
 while(input!=='q') {
     input = prompt("Enter a number 1-5. Enter 'q' to quit.);
+        // Ask the user to enter a 3 digit binary number.
+        // syntax error that keeps you code from running. Close your string. 
 
     switch (input) {
 
@@ -54,6 +56,7 @@ while(input!=='q') {
             break;
 
         case "2":
+        // print 2 if the user enters 10 NOT print 10 if the user enters 2
             twoPrinter('10');
             break;
 
